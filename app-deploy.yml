@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: springboot
-        image: kiranvasista/maven:latest
+        image: kiranvasista/sonar-spring-boot:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
